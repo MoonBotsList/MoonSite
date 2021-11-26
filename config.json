@@ -1,0 +1,60 @@
+{
+    "server": {
+        "root": "https://moonbotslist.xyz",
+        "port": 80,
+        "session": {
+            "secret": "1xUq3yOJTfiCs2aNodYUjxmksQ9XwpYshwgbj3UNx8AooSbkffnCGIXbc1mFLaXmPgbhc8HhMhDDtItu34RD2Qzryb1tEgvaVik8jNTY5TZHiY1dt85IISBGVr4zlT"
+        }
+    },
+
+    "database": {
+        "mongo": {
+            "url": "mongodb+srv://cluster1:230307tulio@cluster0.mmvjm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        }
+    },
+
+    "oauth": {
+        "urls": {
+            "authorization": "https://discord.com/api/oauth2/authorize",
+            "token": "https://discord.com/api/oauth2/token",
+            "redirect": "https://moonbotslist.xyz/oauth2/callback"
+        },
+        "client": {
+            "id": "871973045584142397",
+            "secret": ""
+        }
+    },
+    "hcaptcha": {
+        "enabled": false,
+        "secret": "0xE7B2d897AA628A2dddd6EC17d414F397b83D92dE",
+        "public": "9b327456-c06c-443f-8db0-b0b583bd3337"
+    },
+    "discord": {
+        "bpdId": "793570576173105193",
+        "addId": "794559734216523776",
+        "bot": {
+            "token": "",
+            "channels": {
+                "botLogs": "905154793868230696"
+            },
+            "roles": {
+                "admin": "794295143405715506",
+                "mod": "794295145540485160",
+                "developer": "794295151588802610",
+                "verifier": "794295146224549918"
+            }
+        },
+        "ownerId": "816775306115285073",
+        "endpoints": {
+            "userMe": "https://discord.com/api/users/@me"
+        },
+        "servers": {
+            "support": "https://discord.gg/gCYQUHvxar"
+        }
+    },
+    "api": {
+        "baseURL": "https://api.moonbotslist.xyz:3000/",
+        "secret": "1xUq3yOJTfiCs2aNodYUjxmksQ9XwpYshwgbj3UNx8AooSbkffnCGIXbc1mFLaXmPgbhc8HhMhDDtItu34RD2Qzryb1tEgvaVik8jNTY5TZHiY1dt85IISBGVr4zlT",
+        "outerBase": "https://api.moonbotslist.xyz:3000/"
+    }
+}
