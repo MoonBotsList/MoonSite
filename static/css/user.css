@@ -1,0 +1,18 @@
+#profile {
+    background-color: #242838;
+    top: 0;
+    position: relative;
+}
+
+nav.navbar {
+    box-shadow: none;
+}
+
+.main-container {
+    min-height: 48.9vh;
+}
+
+.buttons {
+    padding-bottom: 10px;
+    display: inline-block;
+}

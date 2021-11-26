@@ -1,0 +1,18 @@
+extends ../layouts/layout
+
+block head
+    script(src="https://hcaptcha.com/1/api.js?hl=pt" async defer)
+    script(src="/js/vote.js")
+    link(rel="stylesheet", href="/css/votar.css")
+
+block content
+    .container.main-container
+        form#votef(method="POST")
+            .box.has-text-centered
+                h1.title.is-1 Vote em #{bot.name}
+                figure.image.is-128x128.container
+                    img.is-rounded(src=bot.avatar)                
+                br
+                button.button.h-captcha(data-callback="onSubmit" data-sitekey=captcha) Votar
+                div
+                    include ../captchamsg
